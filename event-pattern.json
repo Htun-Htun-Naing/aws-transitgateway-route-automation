@@ -1,0 +1,42 @@
+{
+  "source": ["aws.networkmanager"],
+  "detail-type": ["Network Manager Routing Update"],
+  "detail": {
+    "routes": {
+      "destinationCidrBlock": [{
+        "prefix": "10.16"
+      }, {
+        "prefix": "10.17"
+      }, {
+        "prefix": "10.18"
+      }, {
+        "prefix": "10.19"
+      }, {
+        "prefix": "10.20"
+      }, {
+        "prefix": "10.21"
+      }, {
+        "prefix": "10.22"
+      }, {
+        "prefix": "10.23"
+      }, {
+        "prefix": "10.24"
+      }, {
+        "prefix": "10.25"
+      }, {
+        "prefix": "10.26"
+      }, {
+        "prefix": "10.27"
+      }, {
+        "prefix": "10.28"
+      }, {
+        "prefix": "10.29"
+      }, {
+        "prefix": "10.30"
+      }, {
+        "prefix": "10.31"
+      }]
+    },
+    "transitGatewayRouteTableArns": ["arn:aws:ec2:ap-southeast-1:098426407022:transit-gateway-route-table/tgw-rtb-03001909c65807873"]
+  }
+}
